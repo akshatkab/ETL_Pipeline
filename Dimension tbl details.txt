@@ -1,0 +1,88 @@
+Schemas for  file :- hier_clnd_dlm.gz
+root
+ |-- fscldt_id: integer (nullable = true)
+ |-- fscldt_label: string (nullable = true)
+ |-- fsclwk_id: integer (nullable = true)
+ |-- fsclwk_label: string (nullable = true)
+ |-- fsclmth_id: integer (nullable = true)
+ |-- fsclmth_label: string (nullable = true)
+ |-- fsclqrtr_id: integer (nullable = true)
+ |-- fsclqrtr_label: string (nullable = true)
+ |-- fsclyr_id: integer (nullable = true)
+ |-- fsclyr_label: integer (nullable = true)
+ |-- ssn_id: string (nullable = true)
+ |-- ssn_label: string (nullable = true)
+ |-- ly_fscldt_id: integer (nullable = true)
+ |-- lly_fscldt_id: integer (nullable = true)
+ |-- fscldow: integer (nullable = true)
+ |-- fscldom: integer (nullable = true)
+ |-- fscldoq: integer (nullable = true)
+ |-- fscldoy: integer (nullable = true)
+ |-- fsclwoy: integer (nullable = true)
+ |-- fsclmoy: integer (nullable = true)
+ |-- fsclqoy: integer (nullable = true)
+ |-- date: date (nullable = true)
+
+Schemas for  file :- hier_hldy_dlm.gz
+root
+ |-- hldy_id: string (nullable = true)
+ |-- hldy_label: string (nullable = true)
+
+Schemas for  file :- hier_invloc_dlm.gz
+root
+ |-- loc: integer (nullable = true)
+ |-- loc_label: string (nullable = true)
+ |-- loctype: string (nullable = true)
+ |-- loctype_label: string (nullable = true)
+
+Schemas for  file :- hier_invstatus_dlm.gz
+root
+ |-- code_id: string (nullable = true)
+ |-- code_label: string (nullable = true)
+ |-- bckt_id: string (nullable = true)
+ |-- bckt_label: string (nullable = true)
+ |-- ownrshp_id: string (nullable = true)
+ |-- ownrshp_label: string (nullable = true)
+
+Schemas for  file :- hier_possite_dlm.gz
+root
+ |-- site_id: string (nullable = true)
+ |-- site_label: string (nullable = true)
+ |-- subchnl_id: string (nullable = true)
+ |-- subchnl_label: string (nullable = true)
+ |-- chnl_id: string (nullable = true)
+ |-- chnl_label: string (nullable = true)
+
+Schemas for  file :- hier_pricestate_dlm.gz
+root
+ |-- substate_id: string (nullable = true)
+ |-- substate_label: string (nullable = true)
+ |-- state_id: string (nullable = true)
+ |-- state_label: string (nullable = true)
+
+Schemas for  file :- hier_prod_dlm.gz
+root
+ |-- sku_id: string (nullable = true)
+ |-- sku_label: string (nullable = true)
+ |-- stylclr_id: string (nullable = true)
+ |-- stylclr_label: string (nullable = true)
+ |-- styl_id: string (nullable = true)
+ |-- styl_label: string (nullable = true)
+ |-- subcat_id: integer (nullable = true)
+ |-- subcat_label: string (nullable = true)
+ |-- cat_id: integer (nullable = true)
+ |-- cat_label: string (nullable = true)
+ |-- dept_id: integer (nullable = true)
+ |-- dept_label: string (nullable = true)
+ |-- issvc: integer (nullable = true)
+ |-- isasmbly: integer (nullable = true)
+ |-- isnfs: integer (nullable = true)
+
+Schemas for  file :- hier_rtlloc_dlm.gz
+root
+ |-- str: integer (nullable = true)
+ |-- str_label: string (nullable = true)
+ |-- dstr: integer (nullable = true)
+ |-- dstr_label: string (nullable = true)
+ |-- rgn: integer (nullable = true)
+ |-- rgn_label: string (nullable = true)
