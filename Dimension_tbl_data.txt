@@ -1,0 +1,128 @@
+Schemas for  file :- hier_clnd_dlm.gz
++---------+------------+---------+------------+----------+-------------+-----------+--------------+---------+------------+--------+-----------+------------+-------------+-------+-------+-------+-------+-------+-------+-------+----------+
+|fscldt_id|fscldt_label|fsclwk_id|fsclwk_label|fsclmth_id|fsclmth_label|fsclqrtr_id|fsclqrtr_label|fsclyr_id|fsclyr_label|  ssn_id|  ssn_label|ly_fscldt_id|lly_fscldt_id|fscldow|fscldom|fscldoq|fscldoy|fsclwoy|fsclmoy|fsclqoy|      date|
++---------+------------+---------+------------+----------+-------------+-----------+--------------+---------+------------+--------+-----------+------------+-------------+-------+-------+-------+-------+-------+-------+-------+----------+
+| 20180204| Feb 4, 2018|   201801| WK 01, 2018|    201801|    Feb, 2018|      20181|      Q1, 2018|     2018|        2018|SPRG2018|Spring 2018|    20170205|     20160207|      1|      1|      1|      1|      1|      1|      1|2018-02-04|
+| 20180205| Feb 5, 2018|   201801| WK 01, 2018|    201801|    Feb, 2018|      20181|      Q1, 2018|     2018|        2018|SPRG2018|Spring 2018|    20170206|     20160208|      2|      2|      2|      2|      1|      1|      1|2018-02-05|
+| 20180206| Feb 6, 2018|   201801| WK 01, 2018|    201801|    Feb, 2018|      20181|      Q1, 2018|     2018|        2018|SPRG2018|Spring 2018|    20170207|     20160209|      3|      3|      3|      3|      1|      1|      1|2018-02-06|
+| 20180207| Feb 7, 2018|   201801| WK 01, 2018|    201801|    Feb, 2018|      20181|      Q1, 2018|     2018|        2018|SPRG2018|Spring 2018|    20170208|     20160210|      4|      4|      4|      4|      1|      1|      1|2018-02-07|
+| 20180208| Feb 8, 2018|   201801| WK 01, 2018|    201801|    Feb, 2018|      20181|      Q1, 2018|     2018|        2018|SPRG2018|Spring 2018|    20170209|     20160211|      5|      5|      5|      5|      1|      1|      1|2018-02-08|
+| 20180209| Feb 9, 2018|   201801| WK 01, 2018|    201801|    Feb, 2018|      20181|      Q1, 2018|     2018|        2018|SPRG2018|Spring 2018|    20170210|     20160212|      6|      6|      6|      6|      1|      1|      1|2018-02-09|
+| 20180210|Feb 10, 2018|   201801| WK 01, 2018|    201801|    Feb, 2018|      20181|      Q1, 2018|     2018|        2018|SPRG2018|Spring 2018|    20170211|     20160213|      7|      7|      7|      7|      1|      1|      1|2018-02-10|
+| 20180211|Feb 11, 2018|   201802| WK 02, 2018|    201801|    Feb, 2018|      20181|      Q1, 2018|     2018|        2018|SPRG2018|Spring 2018|    20170212|     20160214|      1|      8|      8|      8|      2|      1|      1|2018-02-11|
+| 20180212|Feb 12, 2018|   201802| WK 02, 2018|    201801|    Feb, 2018|      20181|      Q1, 2018|     2018|        2018|SPRG2018|Spring 2018|    20170213|     20160215|      2|      9|      9|      9|      2|      1|      1|2018-02-12|
+| 20180213|Feb 13, 2018|   201802| WK 02, 2018|    201801|    Feb, 2018|      20181|      Q1, 2018|     2018|        2018|SPRG2018|Spring 2018|    20170214|     20160216|      3|     10|     10|     10|      2|      1|      1|2018-02-13|
++---------+------------+---------+------------+----------+-------------+-----------+--------------+---------+------------+--------+-----------+------------+-------------+-------+-------+-------+-------+-------+-------+-------+----------+
+only showing top 10 rows
+
+Schemas for  file :- hier_hldy_dlm.gz
++----------------+-----------------+
+|         hldy_id|       hldy_label|
++----------------+-----------------+
+|  Valentines_Day|  Valentine's Day|
+|  Presidents_Day|   Presidents Day|
+| St_Patricks_Day|St. Patrick's Day|
+|          Easter|           Easter|
+|     Mothers_Day|     Mother's Day|
+|    Memorial_Day|     Memorial Day|
+|     Fathers_Day|     Father's Day|
+|Independence_Day| Independence Day|
+|       Labor_Day|        Labor Day|
+|   Rosh_Hashanah|    Rosh Hashanah|
++----------------+-----------------+
+only showing top 10 rows
+
+Schemas for  file :- hier_invloc_dlm.gz
++---+------------------+-------+-------------+
+|loc|         loc_label|loctype|loctype_label|
++---+------------------+-------+-------------+
+|103|  Catalog/Internet|     DC|           DC|
+|119|            Retail|     DC|           DC|
+|113|     The Boulevard|  Store|        Store|
+|118|         Evergreen|  Store|        Store|
+|125|         Arboretum|  Store|        Store|
+|126|        Burr Ridge|  Store|        Store|
+|127|      Park Meadows|  Store|        Store|
+|128|         Southlake|  Store|        Store|
+|129|Country Club Plaza|  Store|        Store|
+|130|      Copley Place|  Store|        Store|
++---+------------------+-------+-------------+
+only showing top 10 rows
+
+Schemas for  file :- hier_invstatus_dlm.gz
++-------+--------------------+-------+----------------+----------+-------------+
+|code_id|          code_label|bckt_id|      bckt_label|ownrshp_id|ownrshp_label|
++-------+--------------------+-------+----------------+----------+-------------+
+|INV-880|          In-Transit|   IBIT|      In-transit|        IB|      Inbound|
+|INV-875|                 ASN|   IBOO|        On Order|        IB|      Inbound|
+|INV-800|            On Order|   IBOO|        On Order|        IB|      Inbound|
+|INV-850|      Store On Order|   IBOO|        On Order|        IB|      Inbound|
+|INV-900|           Available|   OHAV|       Available|        OH|      On Hand|
+| INV-20|        In Receiving|   OHAV|       Available|        OH|      On Hand|
+| INV-01|            New Item|   OHFA|Future Available|        OH|      On Hand|
+| INV-02|Shipments waiting...|   OHFA|Future Available|        OH|      On Hand|
+| INV-03|Item restricted f...|   OHFA|Future Available|        OH|      On Hand|
+| INV-06|Needs to go to cl...|   OHFA|Future Available|        OH|      On Hand|
++-------+--------------------+-------+----------------+----------+-------------+
+only showing top 10 rows
+
+Schemas for  file :- hier_possite_dlm.gz
++--------+------------------+----------+----------------+-------+-----------+
+| site_id|        site_label|subchnl_id|   subchnl_label|chnl_id| chnl_label|
++--------+------------------+----------+----------------+-------+-----------+
+| CATMAIN|      Catalog Main|   CATMAIN|    Catalog Main|    CAT|    Catalog|
+|CATPROSP|  Catalog Prospect|  CATPROSP|Catalog Prospect|    CAT|    Catalog|
+| CATSALE|      Catalog Sale|   CATSALE|    Catalog Sale|    CAT|    Catalog|
+|INETMAIN|     Internet Main|  INETMAIN|   Internet Main|   INET|   Internet|
+| INETOUT|   Internet Outlet|   INETOUT| Internet Outlet|   INET|   Internet|
+| RTLOPCS|       Retail OPCS|   RTLOPCS|     Retail OPCS|RTLOPCS|Retail OPCS|
+|     115|STL County Library|    RTLPOS|      Retail POS| RTLPOS| Retail POS|
+|     126|        Burr Ridge|    RTLPOS|      Retail POS| RTLPOS| Retail POS|
+|     130|      Copley Place|    RTLPOS|      Retail POS| RTLPOS| Retail POS|
+|     118|    Evergreen Walk|    RTLPOS|      Retail POS| RTLPOS| Retail POS|
++--------+------------------+----------+----------------+-------+-----------+
+only showing top 10 rows
+
+Schemas for  file :- hier_pricestate_dlm.gz
++-----------+--------------+--------+-----------+
+|substate_id|substate_label|state_id|state_label|
++-----------+--------------+--------+-----------+
+|         FP|    Full Price|      FP| Full Price|
+|        MD1|    Markdown 1|      MD|   Markdown|
+|        MD2|    Markdown 2|      MD|   Markdown|
+|        MD3|    Markdown 3|      MD|   Markdown|
++-----------+--------------+--------+-----------+
+
+Schemas for  file :- hier_prod_dlm.gz
++----------+--------------------+----------+--------------------+-------+--------------------+---------+------------+------+---------+-------+----------+-----+--------+-----+
+|    sku_id|           sku_label|stylclr_id|       stylclr_label|styl_id|          styl_label|subcat_id|subcat_label|cat_id|cat_label|dept_id|dept_label|issvc|isasmbly|isnfs|
++----------+--------------------+----------+--------------------+-------+--------------------+---------+------------+------+---------+-------+----------+-----+--------+-----+
+|2230940206|COTTON UNDERWIRE ...|   2230940|COTTON UNDERWIRE ...|  22309|COTTON UNDERWIRE ...|      405|        TOPS|  1000|     TOPS|   2000|   APPAREL|    0|       0|    0|
+|2230940208|COTTON UNDERWIRE ...|   2230940|COTTON UNDERWIRE ...|  22309|COTTON UNDERWIRE ...|      405|        TOPS|  1000|     TOPS|   2000|   APPAREL|    0|       0|    0|
+|2230940308|COTTON UNDERWIRE ...|   2230940|COTTON UNDERWIRE ...|  22309|COTTON UNDERWIRE ...|      405|        TOPS|  1000|     TOPS|   2000|   APPAREL|    0|       0|    0|
+|2230980302|COTTON UNDERWIRE ...|   2230980|COTTON UNDERWIRE ...|  22309|COTTON UNDERWIRE ...|      405|        TOPS|  1000|     TOPS|   2000|   APPAREL|    0|       0|    0|
+|2231033324|UNDERWIRE 3/4 SLE...|   2231033|UNDERWIRE 3/4 SLE...|  22310|UNDERWIRE 3/4 SLE...|      405|        TOPS|  1000|     TOPS|   2000|   APPAREL|    0|       0|    0|
+|2231040342|UNDERWIRE 3/4 SLE...|   2231040|UNDERWIRE 3/4 SLE...|  22310|UNDERWIRE 3/4 SLE...|      405|        TOPS|  1000|     TOPS|   2000|   APPAREL|    0|       0|    0|
+|2231112206|UNDERWIRE TEE EMB...|   2231112|UNDERWIRE TEE EMB...|  22311|       UNDERWIRE TEE|      405|        TOPS|  1000|     TOPS|   2000|   APPAREL|    0|       0|    0|
+|2259240501|HALF MOON BAY TOP...|   2259240|HALF MOON BAY TOP...|  22592|   HALF MOON BAY TOP|      405|        TOPS|  1000|     TOPS|   2000|   APPAREL|    0|       0|    0|
+|2259240601|HALF MOON BAY TOP...|   2259240|HALF MOON BAY TOP...|  22592|   HALF MOON BAY TOP|      405|        TOPS|  1000|     TOPS|   2000|   APPAREL|    0|       0|    0|
+|2259240701|HALF MOON BAY TOP...|   2259240|HALF MOON BAY TOP...|  22592|   HALF MOON BAY TOP|      405|        TOPS|  1000|     TOPS|   2000|   APPAREL|    0|       0|    0|
++----------+--------------------+----------+--------------------+-------+--------------------+---------+------------+------+---------+-------+----------+-----+--------+-----+
+only showing top 10 rows
+
+Schemas for  file :- hier_rtlloc_dlm.gz
++---+--------------------+----+----------------+---+--------------+
+|str|           str_label|dstr|      dstr_label|rgn|     rgn_label|
++---+--------------------+----+----------------+---+--------------+
+|115|  STL County Library|   0|No District Name|  0|No Region Name|
+|126|          Burr Ridge|   0|No District Name|  0|No Region Name|
+|130|        Copley Place|   0|No District Name|  0|No Region Name|
+|118|      Evergreen Walk|  11|       Northeast| 11|          East|
+|131|       Chestnut Hill|  11|       Northeast| 11|          East|
+|138|Market Street Lyn...|  11|       Northeast| 11|          East|
+|141|        Paramus Park|  11|       Northeast| 11|          East|
+|142| Bridgewater Commons|  11|       Northeast| 11|          East|
+|152|      Annapolis Mall|  11|       Northeast| 11|          East|
+|163|          Union Hill|  11|       Northeast| 11|          East|
++---+--------------------+----+----------------+---+--------------+
+only showing top 10 rows
