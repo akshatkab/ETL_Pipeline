@@ -1,0 +1,22 @@
+Schemas for  file :- fact_averagecosts_dlm.gz
+root
+ |-- fscldt_id: integer (nullable = true)
+ |-- sku_id: string (nullable = true)
+ |-- average_unit_standardcost: double (nullable = true)
+ |-- average_unit_landedcost: double (nullable = true)
+
+Schemas for  file :- fact_transactions_dlm.gz
+root
+ |-- order_id: long (nullable = true)
+ |-- line_id: integer (nullable = true)
+ |-- type: string (nullable = true)
+ |-- dt: timestamp (nullable = true)
+ |-- pos_site_id: string (nullable = true)
+ |-- sku_id: string (nullable = true)
+ |-- fscldt_id: integer (nullable = true)
+ |-- price_substate_id: string (nullable = true)
+ |-- sales_units: integer (nullable = true)
+ |-- sales_dollars: double (nullable = true)
+ |-- discount_dollars: double (nullable = true)
+ |-- original_order_id: long (nullable = true)
+ |-- original_line_id: integer (nullable = true)
